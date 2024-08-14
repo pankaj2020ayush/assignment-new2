@@ -7,12 +7,14 @@ import { AssignmentComponent } from './assignment/assignment.component';
 import { ClientComponent } from './client/client.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AssignmentComponent,
-    ClientComponent
+    ClientComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
